@@ -25,16 +25,17 @@ class ViewController: UIViewController {
         NazwiskoTextField.text = ""
         DataDataPicker.date = Date()
     }
+    
     @IBAction func NextButton(_ sender: UIButton) {
         let nameText = String(ImieTextField.text!)
         let surnameText = String(NazwiskoTextField.text!)
         let date = DataDataPicker.date
         self.toSend = pearson(name:nameText,surname: surnameText,date:date)
-        performSegue(withIdentifier: "MainToSecond", sender: self)
+        performSegue(withIdentifier: "FormToList", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var vc = segue.destination as! SecondScreenViewController
+        let vc = segue.destination as! SecondScreenViewController
         vc.pearsons.append(self.toSend)
     }
     

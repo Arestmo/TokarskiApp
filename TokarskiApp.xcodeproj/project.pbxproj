@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F904E260248EAD3E00B3C913 /* DetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F904E25F248EAD3E00B3C913 /* DetailsScreen.swift */; };
 		F91A6C54248984CA002FC7FC /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A6C53248984CA002FC7FC /* SecondScreenViewController.swift */; };
+		F91A6C58248D5210002FC7FC /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A6C57248D5210002FC7FC /* CustomCell.swift */; };
 		F93EC48F24882705009DA077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93EC48E24882705009DA077 /* AppDelegate.swift */; };
 		F93EC49124882705009DA077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93EC49024882705009DA077 /* ViewController.swift */; };
 		F93EC49424882705009DA077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93EC49224882705009DA077 /* Main.storyboard */; };
 		F93EC49624882706009DA077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93EC49524882706009DA077 /* Assets.xcassets */; };
 		F93EC49924882706009DA077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93EC49724882706009DA077 /* LaunchScreen.storyboard */; };
+		F9E3ECB9248EEC0C009BE5A0 /* AppInfoPopUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E3ECB8248EEC0C009BE5A0 /* AppInfoPopUP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F904E25F248EAD3E00B3C913 /* DetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreen.swift; sourceTree = "<group>"; };
 		F91A6C53248984CA002FC7FC /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		F91A6C57248D5210002FC7FC /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		F93EC48B24882705009DA077 /* TokarskiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokarskiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93EC48E24882705009DA077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F93EC49024882705009DA077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		F93EC49524882706009DA077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F93EC49824882706009DA077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F93EC49A24882706009DA077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E3ECB8248EEC0C009BE5A0 /* AppInfoPopUP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoPopUP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				F93EC48E24882705009DA077 /* AppDelegate.swift */,
 				F93EC49024882705009DA077 /* ViewController.swift */,
 				F91A6C53248984CA002FC7FC /* SecondScreenViewController.swift */,
+				F91A6C57248D5210002FC7FC /* CustomCell.swift */,
 				F93EC49224882705009DA077 /* Main.storyboard */,
+				F9E3ECB8248EEC0C009BE5A0 /* AppInfoPopUP.swift */,
+				F904E25F248EAD3E00B3C913 /* DetailsScreen.swift */,
 				F93EC49524882706009DA077 /* Assets.xcassets */,
 				F93EC49724882706009DA077 /* LaunchScreen.storyboard */,
 				F93EC49A24882706009DA077 /* Info.plist */,
@@ -143,6 +152,9 @@
 			files = (
 				F91A6C54248984CA002FC7FC /* SecondScreenViewController.swift in Sources */,
 				F93EC49124882705009DA077 /* ViewController.swift in Sources */,
+				F904E260248EAD3E00B3C913 /* DetailsScreen.swift in Sources */,
+				F91A6C58248D5210002FC7FC /* CustomCell.swift in Sources */,
+				F9E3ECB9248EEC0C009BE5A0 /* AppInfoPopUP.swift in Sources */,
 				F93EC48F24882705009DA077 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

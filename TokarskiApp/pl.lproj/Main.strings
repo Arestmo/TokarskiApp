@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "App Info"; ObjectID = "76a-2q-UxT"; */
+"76a-2q-UxT.text" = "Informacje o Aplikacji";
+
+/* Class = "UIViewController"; title = "Form"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Formularz";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "CFx-rO-Ncb"; */
+"CFx-rO-Ncb.text" = "Data";
+
+/* Class = "UITextField"; placeholder = "Your Name"; ObjectID = "CLW-WI-7pU"; */
+"CLW-WI-7pU.placeholder" = "Twoje imie";
+
+/* Class = "UIButton"; normalTitle = "Details Of App"; ObjectID = "EaX-t5-dfP"; */
+"EaX-t5-dfP.normalTitle" = "Szczegóły Aplikacji";
+
+/* Class = "UIViewController"; title = "Details"; ObjectID = "H6z-bZ-vWy"; */
+"H6z-bZ-vWy.title" = "Szczegóły";
+
+/* Class = "UITextField"; placeholder = "Your Surname"; ObjectID = "HXA-aK-heK"; */
+"HXA-aK-heK.placeholder" = "Twoje nazwisko";
+
+/* Class = "UILabel"; text = "Surname"; ObjectID = "KuK-ik-KE8"; */
+"KuK-ik-KE8.text" = "Nazwisko";
+
+/* Class = "UIViewController"; title = "Pearsons List"; ObjectID = "Lal-pU-hlS"; */
+"Lal-pU-hlS.title" = "Lista Osób";
+
+/* Class = "UINavigationItem"; title = "Form"; ObjectID = "V71-VT-Mwm"; */
+"V71-VT-Mwm.title" = "Formularz";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "aRj-hG-gIC"; */
+"aRj-hG-gIC.normalTitle" = "Anuluj";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "e9n-zY-6Hi"; */
+"e9n-zY-6Hi.normalTitle" = "Dalej";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "g3c-12-fvi"; */
+"g3c-12-fvi.text" = "Imię";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "wAv-MR-yfa"; */
+"wAv-MR-yfa.normalTitle" = "Zamknij";
